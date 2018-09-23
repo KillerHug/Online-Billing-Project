@@ -83,7 +83,7 @@
                         <a href="CustomerProfile.jsp" class="btn">Home</a> 
                         <a href="History.jsp" class="btn">Billing History</a> 
                         <a href="PayBill.jsp" class="btn">Pay Bill</a>
-                        <a href="#" class="btn">Reset Password</a>
+                        <a href="Reset.jsp" class="btn">Reset Password</a>
                         <a href="Update.jsp">Update Information</a>
                         <a href="Logout.jsp" id="link" style="float:right;" >Logout</a>
                 </div> 
@@ -142,7 +142,7 @@
                                             Mobile Number
                                         </td>
                                         <td align="center">
-                                            <%= session.getAttribute("mobile")%>
+                                            <%= session.getAttribute("pay_mobile")%>
                                         </td>
                                     </tr>
 
