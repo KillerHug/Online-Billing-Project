@@ -1,0 +1,121 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.formStyle1
+{
+    width: 100%;
+    height: auto;
+    background: white;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.login1
+{ 
+  margin-top: -500px; 
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(130,130,130,.3);
+  padding: 20px 22px;
+  border: 1px solid black;
+  border-top-color: rgba(255,255,255,.4);
+  border-left-color: rgba(255,255,255,.4);
+  border-bottom-color: rgba(60,60,60,.4);
+  border-right-color: rgba(60,60,60,.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover {
+    text-decoration: none;
+    color:red;
+}
+
+a:active {
+    text-decoration: none;
+}
+input[type=text]
+{
+    outline:none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+    font-family: cambria;
+}
+input[type=password]
+{
+    font-size: 16px;
+    font-family: cambria;
+    outline:none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 80%;
+}
+.button {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: black;
+    border: 1px solid white;
+    color: white;  
+}
+.button [type=reset] {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2 [type=reset]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: black;
+    border: 1px solid white;
+    color: white;   
+}
+hr.style18{ 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -25px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+}
