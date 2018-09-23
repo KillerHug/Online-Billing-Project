@@ -1,0 +1,52 @@
+create table customer
+(
+name varchar2(30),
+dob date,
+gender varchar2(20),
+emp varchar2(20) ,
+marital varchar2(10),
+email varchar2(30) NOT NULL,
+mobile number(10),
+address varchar2(30),
+city varchar2(20),
+state varchar2(20),
+country varchar2(20),
+national varchar2(20),
+userId varchar2(20),
+password varchar2(20),
+srno number(4) primary key
+);
+
+CREATE SEQUENCE seq_srno
+MINVALUE 1000
+START WITH 1000
+INCREMENT BY 10
+CACHE 10;
+
+
+
+create table Payment
+(
+state varchar2(30),
+type varchar2(30),
+consumer number(10),
+provider varchar2(30),
+email varchar2(30),
+mobile number(10),
+payment float,
+pay_option varchar2(30),
+cardNo	number(16),
+CardName varchar2(30),
+cardtype varchar2(30),
+carddate varchar2(20),
+cvv number(10),
+paid float,
+reference number(6) primary key
+);
+
+
+CREATE SEQUENCE seq_reference
+MINVALUE 100000
+START WITH 100000
+INCREMENT BY 1
+CACHE 10;
